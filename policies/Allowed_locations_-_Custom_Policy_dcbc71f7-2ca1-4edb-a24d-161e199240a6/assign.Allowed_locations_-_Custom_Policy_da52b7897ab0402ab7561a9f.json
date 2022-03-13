@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed locations - Custom Policy",
+  "policyDefinitionId": "/subscriptions/6c5b7a41-022b-4c1b-b64a-b968125e11cd/providers/Microsoft.Authorization/policyDefinitions/dcbc71f7-2ca1-4edb-a24d-161e199240a6",
+  "scope": "/subscriptions/6c5b7a41-022b-4c1b-b64a-b968125e11cd/resourceGroups/demo-resource-group",
+  "notScopes": [],
+  "parameters": {
+   "listOfAllowedLocations": {
+    "value": [
+     "centralus"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Aryan Gupta",
+   "parameterScopes": {
+    "listOfAllowedLocations": "/subscriptions/6c5b7a41-022b-4c1b-b64a-b968125e11cd/resourceGroups/demo-resource-group"
+   },
+   "createdBy": "60114bb8-3be8-4aa4-8b89-0d53894c64cc",
+   "createdOn": "2022-03-13T12:14:01.4472648Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "DoNotEnforce"
+ },
+ "id": "/subscriptions/6c5b7a41-022b-4c1b-b64a-b968125e11cd/resourceGroups/demo-resource-group/providers/Microsoft.Authorization/policyAssignments/da52b7897ab0402ab7561a9f",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "da52b7897ab0402ab7561a9f"
+}
