@@ -11,7 +11,8 @@
   "parameters": {
    "listOfAllowedLocations": {
     "value": [
-     "centralus"
+     "centralus",
+     "eastus"
     ]
    }
   },
